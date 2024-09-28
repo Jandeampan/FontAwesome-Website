@@ -1,0 +1,191 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FontAwesome Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="/css/index.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="title">Font Awesome Icons</h1>
+        <nav class="main-nav">
+            <ul class="nav-items">
+                <li><a href="/">Home</a></li>
+                <li><a href="#icon-grid">Icons</a></li>
+                <li><a href="/usage">Usage</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section class="hero">
+            <h2 class="hero-header">Unleash Your Creativity with Our Icon Library</h2>
+            <p class="hero-text">Welcome to our extensive icon library, where endless possibilities await! Whether you’re designing a sleek website, crafting a stunning app, or enhancing a presentation, our collection of icons is here to elevate your projects. Dive in below to explore a vast array of meticulously crafted icons, or venture into our comprehensive documentation for tips, tricks, and best practices to maximize their impact.</p>
+        
+            <div class="info-box">
+                <h3 class="info-header">What is Font Awesome?</h3>
+                <p class="info-text">Font Awesome is the leading icon library that features over 1,000 versatile icons, designed to meet the needs of modern web and app developers. Its icons are carefully crafted to be easily recognizable, making them a vital tool for effective communication through design.</p>
+        
+                <h4 class="info-subheader">Versatility and Customization</h4>
+                <p class="info-text">These icons are built with scalability and responsiveness in mind. Font Awesome allows you to customize the size, color, and style of each icon using simple CSS, enabling you to blend them seamlessly into your design. Whether you need a small icon for a button or a large one for a header, Font Awesome has got you covered.</p>
+                
+                <h4 class="info-subheader">A Comprehensive Collection</h4>
+                <p class="info-text">One of the standout features of Font Awesome is its extensive collection of icons that cater to various themes and purposes. From social media logos and user interface elements to industry-specific icons, you’ll find everything from basic shapes to intricate designs. This means you’ll have the perfect icon for any context or project, allowing you to create a cohesive visual language throughout your work.</p>
+        
+                <h4 class="info-subheader">Flexible Integration</h4>
+                <p class="info-text">Font Awesome supports both SVG and icon fonts, offering flexibility depending on your project requirements. SVG icons are lightweight and easily manipulated, allowing for animations and styling changes directly in your code. Meanwhile, icon fonts provide a convenient way to embed icons directly into your HTML, ensuring cross-browser compatibility and consistent rendering across devices.</p>
+                
+                <h4 class="info-subheader">Why Choose Font Awesome?</h4>
+                <p class="info-text">Font Awesome stands out due to its user-friendly approach and robust features. It simplifies the process of adding icons to your projects while ensuring high quality and performance. With a vast library of icons, you can save time searching for the right graphics, allowing you to focus more on your design. Additionally, Font Awesome is continually updated, meaning you’ll always have access to the latest icons and design trends. By using Font Awesome, you’re not just enhancing your project visually; you’re also joining a vibrant community of designers and developers who leverage the power of icons to create stunning user experiences.</p>
+        
+                <h4 class="info-subheader">How to Use Font Awesome</h4>
+                <p class="info-text">Getting started with Font Awesome is a breeze. Simply include the Font Awesome stylesheet in your project, and you can start using the icons in your HTML right away. There are numerous methods for integration, including CDN links and local installations, giving you the flexibility to choose what works best for you. For detailed guidance, check out our <a href="/usage">How to Use Font Awesome</a> page, which includes examples and best practices to help you get the most out of this powerful tool.</p>
+        
+                <h4 class="info-subheader">Pros and Cons</h4>
+                <p class="info-text"><strong>Pros:</strong> Font Awesome is easy to use and integrates seamlessly into various projects. Its extensive icon collection caters to diverse needs, from social media to navigation and beyond. The ability to customize icons means you can maintain brand consistency while enhancing the user experience. Furthermore, the active community surrounding Font Awesome provides a wealth of resources, tutorials, and forums for support.</p>
+                <p class="info-text"><strong>Cons:</strong> Some icons are only available in the pro version, which may be a limitation for users on a budget. Additionally, loading too many icons can potentially lead to performance issues, especially in larger projects. There is also a learning curve for users who wish to leverage advanced customization features, which might initially be overwhelming for beginners.</p>
+        
+                <h4 class="info-subheader">Success Stories from the Community</h4>
+                <p class="info-text">Many designers and developers have shared their success stories of using Font Awesome in their projects. From creating user-friendly interfaces to enhancing brand identity, the feedback is overwhelmingly positive. Users have praised the intuitive design and ease of implementation, which has led to improved user engagement and satisfaction. As you embark on your design journey, consider how Font Awesome can help you achieve similar results.</p>
+        
+                <h4 class="info-subheader">Join the Creative Community</h4>
+                <p class="info-text">Join us on this creative journey and discover how Font Awesome can transform your designs, making them more intuitive, engaging, and user-friendly. Let’s elevate your projects one icon at a time! By incorporating Font Awesome into your workflow, you’ll not only enhance your designs but also connect with a global community of creative professionals who share your passion for design.</p>
+            </div>
+        
+            <a href="#icon-grid" class="hero-btn">
+                <i class="fas fa-search"></i> Browse Our Icon Collection
+            </a>
+        </section>
+
+        <section class="icon-grid" id="icon-grid">
+            <h2 class="icon-grid-header">Explore Our Icon Collection</h2>
+            <p class="icon-grid-text">Our icon library offers a diverse range of icons that can enhance your projects. Below, you'll find a selection of icons, each designed to convey clear meaning and support your design needs. Use these icons to enrich your user interfaces, improve navigation, and add visual flair to your applications.</p>
+            
+            <div class="icon-grid-container">
+                <div class="icon">
+                    <i class="fas fa-address-book"></i>
+                    <div class="icon-name">Address Book</div>
+                    <p class="icon-description">Use this icon to represent contact information, addressing user interactions, or user profiles.</p>
+                    <button class="copy-btn" onclick="copyCode('<i class=&quot;fas fa-address-book&quot;></i>')">Copy HTML</button>
+                    <pre class="code-block" style="display:none;">&lt;i class=&quot;fas fa-address-book&quot;&gt;&lt;/i&gt;</pre>
+                </div>
+                <div class="icon">
+                    <i class="fas fa-address-card"></i>
+                    <div class="icon-name">Address Card</div>
+                    <p class="icon-description">Ideal for displaying personal identification, this icon is perfect for profiles or business cards.</p>
+                    <button class="copy-btn" onclick="copyCode('<i class=&quot;fas fa-address-card&quot;></i>')">Copy HTML</button>
+                    <pre class="code-block" style="display:none;">&lt;i class=&quot;fas fa-address-card&quot;&gt;&lt;/i&gt;</pre>
+                </div>
+                <div class="icon">
+                    <i class="fas fa-adjust"></i>
+                    <div class="icon-name">Adjust</div>
+                    <p class="icon-description">This icon signifies adjustments or settings, making it suitable for customization features.</p>
+                    <button class="copy-btn" onclick="copyCode('<i class=&quot;fas fa-adjust&quot;></i>')">Copy HTML</button>
+                    <pre class="code-block" style="display:none;">&lt;i class=&quot;fas fa-adjust&quot;&gt;&lt;/i&gt;</pre>
+                </div>
+                <div class="icon">
+                    <i class="fas fa-align-center"></i>
+                    <div class="icon-name">Align Center</div>
+                    <p class="icon-description">Use this icon to indicate center alignment options in text or graphical elements.</p>
+                    <button class="copy-btn" onclick="copyCode('<i class=&quot;fas fa-align-center&quot;></i>')">Copy HTML</button>
+                    <pre class="code-block" style="display:none;">&lt;i class=&quot;fas fa-align-center&quot;&gt;&lt;/i&gt;</pre>
+                </div>
+                <div class="icon">
+                    <i class="fas fa-align-justify"></i>
+                    <div class="icon-name">Align Justify</div>
+                    <p class="icon-description">This icon denotes justified text alignment, useful for word processors or design tools.</p>
+                    <button class="copy-btn" onclick="copyCode('<i class=&quot;fas fa-align-justify&quot;></i>')">Copy HTML</button>
+                    <pre class="code-block" style="display:none;">&lt;i class=&quot;fas fa-align-justify&quot;&gt;&lt;/i&gt;</pre>
+                </div>
+                <div class="icon">
+                    <i class="fas fa-align-left"></i>
+                    <div class="icon-name">Align Left</div>
+                    <p class="icon-description">Ideal for left alignment features in text editors, providing a straightforward user experience.</p>
+                    <button class="copy-btn" onclick="copyCode('<i class=&quot;fas fa-align-left&quot;></i>')">Copy HTML</button>
+                    <pre class="code-block" style="display:none;">&lt;i class=&quot;fas fa-align-left&quot;&gt;&lt;/i&gt;</pre>
+                </div>
+                <div class="icon">
+                    <i class="fas fa-align-right"></i>
+                    <div class="icon-name">Align Right</div>
+                    <p class="icon-description">This icon is useful for indicating right alignment options in text or layout settings.</p>
+                    <button class="copy-btn" onclick="copyCode('<i class=&quot;fas fa-align-right&quot;></i>')">Copy HTML</button>
+                    <pre class="code-block" style="display:none;">&lt;i class=&quot;fas fa-align-right&quot;&gt;&lt;/i&gt;</pre>
+                </div>
+                <div class="icon">
+                    <i class="fas fa-allergies"></i>
+                    <div class="icon-name">Allergies</div>
+                    <p class="icon-description">Representing health concerns, this icon can be used in medical applications or food-related services.</p>
+                    <button class="copy-btn" onclick="copyCode('<i class=&quot;fas fa-allergies&quot;></i>')">Copy HTML</button>
+                    <pre class="code-block" style="display:none;">&lt;i class=&quot;fas fa-allergies&quot;&gt;&lt;/i&gt;</pre>
+                </div>
+                <div class="icon">
+                    <i class="fas fa-ambulance"></i>
+                    <div class="icon-name">Ambulance</div>
+                    <p class="icon-description">Use this icon to indicate emergency services, health applications, or urgent care resources.</p>
+                    <button class="copy-btn" onclick="copyCode('<i class=&quot;fas fa-ambulance&quot;></i>')">Copy HTML</button>
+                    <pre class="code-block" style="display:none;">&lt;i class=&quot;fas fa-ambulance&quot;&gt;&lt;/i&gt;</pre>
+                </div>
+                <div class="icon">
+                    <i class="fas fa-anchor"></i>
+                    <div class="icon-name">Anchor</div>
+                    <p class="icon-description">Symbolizing stability and security, this icon is perfect for nautical themes or safety features.</p>
+                    <button class="copy-btn" onclick="copyCode('<i class=&quot;fas fa-anchor&quot;></i>')">Copy HTML</button>
+                    <pre class="code-block" style="display:none;">&lt;i class=&quot;fas fa-anchor&quot;&gt;&lt;/i&gt;</pre>
+                </div>
+                <div class="icon">
+                    <i class="fas fa-bicycle"></i>
+                    <div class="icon-name">Bicycle</div>
+                    <p class="icon-description">Great for travel and fitness applications, this icon promotes eco-friendly transportation.</p>
+                    <button class="copy-btn" onclick="copyCode('<i class=&quot;fas fa-bicycle&quot;></i>')">Copy HTML</button>
+                    <pre class="code-block" style="display:none;">&lt;i class=&quot;fas fa-bicycle&quot;&gt;&lt;/i&gt;</pre>
+                </div>
+                <div class="icon">
+                    <i class="fas fa-bell"></i>
+                    <div class="icon-name">Bell</div>
+                    <p class="icon-description">Indicating notifications or alerts, this icon is essential for apps requiring user attention.</p>
+                    <button class="copy-btn" onclick="copyCode('<i class=&quot;fas fa-bell&quot;></i>')">Copy HTML</button>
+                    <pre class="code-block" style="display:none;">&lt;i class=&quot;fas fa-bell&quot;&gt;&lt;/i&gt;</pre>
+                </div>
+                <div class="icon">
+                    <i class="fas fa-bolt"></i>
+                    <div class="icon-name">Bolt</div>
+                    <p class="icon-description">Perfect for representing speed or energy, this icon adds a dynamic touch to tech-related projects.</p>
+                    <button class="copy-btn" onclick="copyCode('<i class=&quot;fas fa-bolt&quot;></i>')">Copy HTML</button>
+                    <pre class="code-block" style="display:none;">&lt;i class=&quot;fas fa-bolt&quot;&gt;&lt;/i&gt;</pre>
+                </div>
+                <div class="icon">
+                    <i class="fas fa-calendar"></i>
+                    <div class="icon-name">Calendar</div>
+                    <p class="icon-description">Use this icon for scheduling features or event management in your applications.</p>
+                    <button class="copy-btn" onclick="copyCode('<i class=&quot;fas fa-calendar&quot;></i>')">Copy HTML</button>
+                    <pre class="code-block" style="display:none;">&lt;i class=&quot;fas fa-calendar&quot;&gt;&lt;/i&gt;</pre>
+                </div>
+                <div class="icon">
+                    <i class="fas fa-camera"></i>
+                    <div class="icon-name">Camera</div>
+                    <p class="icon-description">Ideal for photography or media applications, this icon signifies capturing moments.</p>
+                    <button class="copy-btn" onclick="copyCode('<i class=&quot;fas fa-camera&quot;></i>')">Copy HTML</button>
+                    <pre class="code-block" style="display:none;">&lt;i class=&quot;fas fa-camera&quot;&gt;&lt;/i&gt;</pre>
+                </div>
+                <div class="icon">
+                    <i class="fas fa-caret-down"></i>
+                    <div class="icon-name">Caret Down</div>
+                    <p class="icon-description">This icon is often used in dropdown menus or selection fields to indicate more options.</p>
+                    <button class="copy-btn" onclick="copyCode('<i class=&quot;fas fa-caret-down&quot;></i>')">Copy HTML</button>
+                    <pre class="code-block" style="display:none;">&lt;i class=&quot;fas fa-caret-down&quot;&gt;&lt;/i&gt;</pre>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p class="footer-text">© <script>document.write(new Date().getFullYear());</script> Font Awesome</p>
+    </footer>
+
+    <script src="/js/index.js"></script>
+</body>
+</html>
